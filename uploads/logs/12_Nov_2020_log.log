@@ -1,0 +1,9 @@
+12-Nov-2020 17:22 : SELECT EmployeeId FROM `AttendanceMaster` WHERE  Id='11964852' and OrganizationId=10
+12-Nov-2020 17:50 : SELECT EmployeeId FROM `AttendanceMaster` WHERE  Id='11964854' and OrganizationId=10
+12-Nov-2020 18:00 : SELECT EmployeeId FROM `AttendanceMaster` WHERE  Id='11964858' and OrganizationId=10
+12-Nov-2020 18:06 : SELECT EmployeeId FROM `AttendanceMaster` WHERE  Id='11964829' and OrganizationId=10
+12-Nov-2020 18:07 : SELECT EmployeeId FROM `AttendanceMaster` WHERE  Id='11961018' and OrganizationId=10
+12-Nov-2020 18:08 : SELECT EmployeeId FROM `AttendanceMaster` WHERE  Id='11961018' and OrganizationId=10
+12-Nov-2020 18:09 : SELECT EmployeeId FROM `AttendanceMaster` WHERE  Id='11961018' and OrganizationId=10
+12-Nov-2020 18:09 : SELECT EmployeeId FROM `AttendanceMaster` WHERE  Id='11961018' and OrganizationId=10
+12-Nov-2020 18:20 : SELECT EmployeeId FROM `AttendanceMaster` WHERE  Id='11983271' and OrganizationId=10

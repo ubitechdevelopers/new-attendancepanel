@@ -1,0 +1,58 @@
+// Typography
+
+$fontFamily: 'Poppins', sans-serif;
+$primaryText: 1.5625rem;
+$secondaryText: 1.125rem;
+$primaryFontWeight: 700;
+$sidebarItemText: 0.9375rem;
+
+
+// Color
+$primaryColor: #3FAE3E;
+$primaryTextColor: #000000;
+$secondaryColor: #881313;
+$sideBarItemHover : #f1f1f1; 
+$textColor : #1a1a1a;
+$textHover : #0f0f0f;
+$white: #FFFFFF;
+$black: #000000;
+
+$bgcolor : rgb(255, 255, 255); 
+// rbg color : rgb(236,247,255) and hex color:#ECF7FF
+//rgb(226, 237, 245)
+
+// $shadowtop :-9px -9px 12px #ffffffd3;
+// $shadowdown : 10px 10px 15px rgba(196,205,212,0.5); 
+// // hex code: #C4CDD4 and rbg: rgb(196,205,212)
+// $shadowtopinside : inset -3px -3px 9px #ffffffd3;
+// $shadowdowninside : inset 3px 3px 9px rgba(196,205,212,0.5); 
+// $shadowtophover : -3px -3px 10px #ffffff;
+// $shadowdownhover : 3px 3px 10px rgba(196,205,212,0.5);
+
+
+$navboxshadow : 1px 6px 5px -5px rgba(0, 0, 0, 0.1);
+$imageshadow : 1px 5px 10px -1px rgba(0, 0, 0, 0.1);
+
+
+// Screen Size
+
+
+// desktop
+$desktopLarge: 1950px;
+$desktopMedium: 1460px;
+$desktopSmall: 1380px;
+
+// tablet
+$tabletLarge: 1300px;
+$tabletMedium: 1040px;
+$tabletSmall: 900px;
+
+// mobile
+$mobileLarge: 414px;
+$mobileMedium: 370px;
+$mobileSmall: 320px;
+
+
+
+$customSize700: 700px;
+

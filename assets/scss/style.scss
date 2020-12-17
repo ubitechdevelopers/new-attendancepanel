@@ -1,0 +1,13 @@
+@import 'variables';
+
+body{
+    font-family: $fontFamily;
+    display: flex;
+    width: 100%;
+    background-color: $bgcolor;
+}
+
+@import './component/sidebar';
+@import './component/navbar';
+@import './component/main';
+@import './component/button';

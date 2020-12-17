@@ -1,0 +1,58 @@
+.navbar {
+  padding: 15px;
+  transition: all 0.4s;
+  background-color: $bgcolor;
+  // border-bottom: 1px solid #ebebeb;
+
+  .nav-item{
+      margin-left: 20px;
+      margin-right: 60px;
+  }
+  .action{
+      text-align: center;
+      font-weight: 700 !important;
+      border-bottom: 3px solid #9C27B0;
+  }
+
+  .nav-link {
+      color: $textColor;
+      font-weight: 500;
+      &:hover,:focus{
+          font-weight: 600;
+          color: $textHover;
+          text-decoration: none;
+      } 
+
+  }
+  
+}
+
+.navbar.active {
+background: $bgcolor;
+box-shadow: $navboxshadow;
+.nav-link {
+      color: $textColor;
+  &:hover,:focus {
+    color: $textHover;
+          text-decoration: none;
+          transition: ease-in-out .5s;
+  }
+  }
+}
+
+
+
+//nav items
+
+#user-image{
+  width: 35px;
+  border-radius: 50px;
+  box-shadow: $imageshadow;
+}
+
+#username{
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  color: $primaryTextColor;
+}

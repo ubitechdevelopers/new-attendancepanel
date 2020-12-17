@@ -1,0 +1,134 @@
+@import '../mixin/mixin';
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    border-right: 1px solid #ebebeb;
+    position: fixed;
+    z-index: 1035;
+    top: 0;
+    left: 0;
+    background-color: $bgcolor;
+    padding-top: 20px;
+
+    @include tablet_md{
+      width: 100px;
+    }
+    @include tablet_sm{
+      width: 70px;
+    }
+
+    a {
+      text-decoration: none;
+      font-size: $sidebarItemText;
+      color: $primaryTextColor;
+      font-weight: 500;
+      display: block;
+
+
+      @include desktop_md{
+        font-size: 0.875rem;
+      }
+
+      @include tablet_md{
+        font-size: 0%;
+      }
+
+      #active{
+        font-weight: 700;
+        background-color: $secondaryColor;
+      }
+
+      .side-item-icon{
+        padding-right: 20px;
+        
+        @include tablet_md{
+          padding: 10px;
+        }
+        @include tablet_sm{
+          padding: 0;
+        }
+      }
+
+    
+      &:hover{
+        color: $black;
+        background-color: $sideBarItemHover;
+      }
+    }
+
+    .logo-container{
+      padding-top: 8px;
+      padding-bottom: 50px;
+      
+      text-align: center;
+
+      @include desktop_md{
+        padding-top: 8px;
+        padding-bottom: 40px;
+        text-align: center;
+      }
+      @include tablet_md{
+        padding-top: 8px;
+        padding-bottom: 70px;
+        text-align: center;
+      }
+      @include tablet_sm{
+        padding-top: 8px;
+        padding-bottom: 80px;
+        text-align: center;
+      }
+
+
+
+    
+      .logo{
+        margin: auto;
+        width: 120px;
+
+        @include desktop_md{
+          width: 100px;
+        }
+        @include tablet_md{
+          width: 80px;
+        }
+        @include tablet_sm{
+          width: 70px;
+        }
+      }
+    
+    }
+    
+    .side-item-container{
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+
+      @include desktop_md{
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      @include tablet_md{
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      @include tablet_sm{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+
+    }
+
+
+    
+  
+  }
+  
+  
+
+
+ 
+

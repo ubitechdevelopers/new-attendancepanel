@@ -1,0 +1,35 @@
+.main {
+    margin-top: 100px;
+    margin-left: 250px;
+    padding: 0px 30px;
+    width: 100%;
+
+    @include tablet_md{
+        margin-left: 100px;
+        padding: 0px 20px;
+      }
+      @include tablet_sm{
+        margin-left: 70px;
+        padding: 0px 15px;
+      }
+
+  }
+  .primary-text{
+      font-size: $primaryText;
+      font-weight: $primaryFontWeight;
+  }
+  
+#tab-bar{
+    margin-top: 50px;
+}
+
+#tab-bar-container{
+    padding: 0;
+    text-align: left;
+}
+
+#title-text-container{
+    padding: 0;
+}
+
+@import "./tabbar"
